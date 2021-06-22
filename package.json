@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "awilix": "^4.3.4",
+    "awilix-koa": "^4.0.0",
+    "koa-art-template": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/koa__router": "^8.0.4",
+    "koa": "^2.13.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
