@@ -2,11 +2,11 @@
 
 传统的mvc模式是这样子的
 
-![img](https://gitee.com/cai-lunduo/static-resource-warehouse/raw/master/static/ts-awilix/mvc.jpg)
+![img](https://gitee.com/cai-lunduo/static-resource-warehouse/raw/master/static/ts-awilix/mvc.png)
 
 而IOC会将路由路由以及控制器都放到一个容器统一管理，也就是这样
 
-![img](https://gitee.com/cai-lunduo/static-resource-warehouse/raw/master/static/ts-awilix/ioc.jpg)
+![img](https://gitee.com/cai-lunduo/static-resource-warehouse/raw/master/static/ts-awilix/ioc.png)
 
 ioc的思想最核心的地方在于，资源不由使用资源的双方管理，而由不使用资源的第三方管理，这可以带来很多好处。第一，资源集中管理，实现资源的可配置和易管理。第二，降低了使用资源双方的依赖程度，也就是我们说的耦合度。
 
