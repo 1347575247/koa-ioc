@@ -57,13 +57,13 @@ ioc的思想最核心的地方在于，资源不由使用资源的双方管理�
     index.html
 ```
 
-首先我们可以先通过awilix创建一个容器，该容器负责装置我们的service
+首先我们可以先通过awilix创建一个容器，该容器负责装载我们的service
 
 ```ts
 const container = createContainer()
 ```
 
-然后装载我们的服务，服务都放在service下，负责数据请求或修改等操作
+服务都放在service下，负责数据请求或修改等操作
 
 ```ts
 container.loadModules([`${__dirname}/service/*.ts`], {
